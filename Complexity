@@ -1,0 +1,72 @@
+COMPLEXITY : It is a metric/technique utilised to analyse the algorithm. It contains two comparision unit; Time and space.
+
+->Time Complexity: It is the time required by the algorithm to execute and finsih the task as a function of length of input.
+->Space Complexity: It is the space/memory required by the algo as a function of the length of input.
+
+
+Importance and requirement
+->Compare algorithm
+->Determine the time and space utilisation
+->optimisation
+Disadvantage:
+->Asymptotic analysis does not provide an accurate running time or space usage of an algorithm.
+->It assumes that the input size is the only factor that affects an algorithm’s performance
+
+
+
+ASYMPTOTIC NOTATIONS: Asymptotic Notations are mathematical tools used to analyze the performance of algorithms.
+->01.Big-O notation represents the upper bound of the running time of an algorithm. Therefore, it gives the worst-case complexity of an algorithm. 
+->02.Omega notation represents the lower bound of the running time of an algorithm. Thus, it provides the best-case complexity of an algorithm.
+->03.Theta notation encloses the function from above and below. Since it represents the upper and the lower bound of the running time of an algorithm, it is used for analyzing the average-case complexity of an algorithm.
+
+There are two more notations called little o and little omega. 
+->Little o provides a strict upper bound (equality condition is removed from Big O) and little omega provides strict lower bound (equality condition removed from big omega)
+
+
+
+
+
+
+Constant Time Complexity O(1):
+The time complexity of a function (or set of statements) is considered as O(1) if it doesn’t contain a loop, recursion, and call to any other non-constant time function.
+example : ->return n*n;
+          ->for i in range(1, 10):
+                # some O(1) expressions
+Linear Time Complexity O(n):
+The Time Complexity of a loop is considered as O(n) if a loop exist for a given variable of size 'n'. Statements executes for n times i.e depends on the given input length.
+example : ->for i in range(1, n):
+                # some O(1) expressions
+
+Quadratic Time Complexity O(nc):
+The time complexity is defined as an algorithm whose performance is directly proportional to the squared size of the input data, as in nested loops.
+example : ->for (int i = 1; i <= n; i += c) {
+              for (int j = 1; j <= n; j += c) {
+                  // some O(1) expressions
+              }
+            }
+Logarithmic Time Complexity O(Log n):
+The time Complexity of a loop is considered as O(Logn) if the loop variables are divided/multiplied by a constant amount. 
+example: -> i = 1
+            while(i <= n):
+                # some O(1) expressions
+                i = i*c
+          -> i = n
+            while(i > 0):
+                # some O(1) expressions
+                i = i/c
+
+
+
+
+
+Algorithm      	      Best Case	      Average Case	    Worst Case
+Selection Sort	   |   O(n^2)	          O(n^2)	          O(n^2)
+Bubble Sort	       |    O(n)	          O(n^2)	          O(n^2)
+Insertion Sort	   |    O(n)	          O(n^2)	          O(n^2)
+Tree Sort	         |  O(nlogn)	        O(nlogn)	        O(n^2)
+Radix Sort	       |    O(dn)	           O(dn)	          O(dn)
+Merge Sort	       |  O(nlogn)	        O(nlogn)	        O(nlogn)
+Heap Sort          | 	O(nlogn)	        O(nlogn)	        O(nlogn)
+Quick Sort	       |  O(nlogn)	        O(nlogn)	        O(n^2)
+Bucket Sort	       |  O(n+k)	          O(n+k)	          O(n^2)
+Counting Sort	     |  O(n+k)	          O(n+k)	          O(n+k)
