@@ -1,0 +1,34 @@
+DATA STRUCTURE
+Mode to store data in different ways in an organised manner.
+Advantages:
+->Efficiency
+->Easy to handle
+->Processing
+->Consistency
+Disadvantage:
+->Limited flexiblity(different type of data/change data)
+->Cost
+
+
+ALGORITHM
+A set of instructions or steps required to solve a computational problem.
+->problem solving skills
+->efficiency in understanding the problem and bring out a optimised solution.
+
+
+TYPES OF DATA STRUCTURE:
+1.Primitive : simple, single value in memory location, eg: int,float,boolean etc
+2.Non primitive: complex, pointers to memeory location, derived from primitive DS.
+->divided into linear(arrays,list,ll,stacks,queues,tuples) and non linear(tree,graph,set,dictionary).
+
+
+TYPES OF ALGORITHMS:
+->sorting
+->searching
+->graph
+->recursive
+->divide and conquer
+->dynamic programming
+
+
+
